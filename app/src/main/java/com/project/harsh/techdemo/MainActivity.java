@@ -6,6 +6,9 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import com.project.harsh.techdemo.HelpLayout.Help;
+import com.project.harsh.techdemo.ViewLayout.GridActivity;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -20,8 +23,8 @@ public class MainActivity extends AppCompatActivity {
         day1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(MainActivity.this, DayOne.class);
-                i.putExtra("position",1);
+                Intent i = new Intent(MainActivity.this, GridActivity.class);
+                i.putExtra("position",0);
                 startActivity(i);
 
             }
@@ -30,8 +33,8 @@ public class MainActivity extends AppCompatActivity {
         day2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(MainActivity.this, DayTwo.class);
-                i.putExtra("position",2);
+                Intent i = new Intent(MainActivity.this, GridActivity.class);
+                i.putExtra("position",1);
                 startActivity(i);
 
             }
@@ -41,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent i = new Intent(MainActivity.this, Help.class);
-                i.putExtra("position",3);
+                i.putExtra("position",2);
                 startActivity(i);
 
             }

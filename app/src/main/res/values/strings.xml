@@ -1,3 +1,83 @@
 <resources>
-    <string name="app_name">Techdemo</string>
+    <string name="app_name">Technosonic2k17</string>
+
+    <string name="trtime">Time : 10:30AM</string>
+    <string name="trtitle">TRUSS BRIDGE MODELLING</string>
+    <string name="tv1">Details:</string>
+    <string name="tv2">The task assigned to the participating teams is to design and
+        construct a bridge model, which meets the criteria as given in the rules link.
+        The thinking ability and on the spot decision making ability will be tested by
+        this competition</string>
+    <string name="tv3">Description:</string>
+    <string name="tv4">The bridge model should span a total length of 120.0 cm.
+The truss and the roadway must be constructed in a single span
+and brought to the venue.</string>
+    <string name="tv5">Bridge model Construction Criteria</string>
+    <string name="tv6"> All parts of the bridge model must be built with Popsicle
+sticks (120mm x 12mm x 2mm) and
+ “Fevicol MR” (No other material is acceptable and team will be
+disqualified if used).
+ The roadway (deck slab) must span a total length of 120.0 cm ±
+0.5 cm with the centre of the bridge model resting on the support
+(which will be
+Provided).
+ The width of the bridge model must not exceed 15.0 cm at any
+point and must be more than 10.0 cm at every point.
+ The total thickness of the roadway/ deck slab (mandatory toconstruct in model) must not be more
+        than 0.3 cm.
+ A roadway / deck slab is required for all bridge models.
+ Overlap of two parallel members along their length is not allowed.
+ Piers must not be constructed.
+ The total weight of the bridge model must not exceed 0.750 kg.
+ Coating of paint, adhesive, polish, or any other material must
+not be applied to exposed surfaces of the bridge model</string>
+    <string name="tv7">Testing Criteria</string>
+    <string name="tv8">
+Participants have to prepare a TRUSS BRIDGE as per defined
+criteria.
+ Initial load applied would be 1.5 Kg. Bridge model
+should sustain minimum load otherwise it will be
+disqualified.
+ The bridge model shall be loaded on both ends of the bridge model
+(50.0 cm
+from the centre of the bridge model on both sides)
+
+If for any reason the loading system cannot be placed at the point
+specified, the loading mechanism will be moved towards the ends
+of the bridge model until a suitable point is found for loading.
+.
+
+Measurement shall stop after peak load is reached, or a deflection
+greater than 3.0 cm is reached at any point.
+ Winner will be decided by the judges.
+ Decision of judges will be final and no further debate will be
+allowed.
+Some rules and penalties may be mentioned on the spot.
+Penalty Criteria
+• If bridge model’s total span is less than defined, the model will be
+penalized/ disqualified.*
+• Use of any material other than specified will result in
+disqualification.
+• Bridge models with weight greater than specified will be
+penalized/ disqualified.*
+• If bridge model’s width is greater or smaller than defined, the
+model will be penalized/ disqualified.*
+• Any irregular cross-sections or irregularities in the workmanship,
+bent bridge models, designs, etc. that do not allow us to test the
+bridge model on the stated loading mechanism will result in
+penalty/ disqualification.*
+• Bridge models with piers will be disqualified.
+• If coating of paint, adhesive, polish, or any other material is
+applied to any exposed surface of the bridge model, the model
+will be disqualified.</string>
+    <string name="tv10">**Penalties will be declared at the time of competition. Penalties will be
+decided by the judges.</string>
+    <string name="tv11">Winning Price:</string>
+    <string name="tv12">1st 1500/-
+2nd 1000/-</string>
+    <string name="tv13">Student Coordinator:</string>
+    <string name="tv14">Suketu Patel
+(7046408353)</string>
+
+
 </resources>

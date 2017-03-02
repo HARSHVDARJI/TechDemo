@@ -1,13 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/activity_help"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:id="@+id/data"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.project.harsh.techdemo.Help">
+    android:layout_height="match_parent">
+    <TextView
+        android:text="Mr. Guide Here to Help You,  Please Choose
+From **Current Location**
+To   **Where You Want To Go**"
+        android:textColor="@color/deeorange"
+        android:textStyle="italic"
+        android:textSize="18sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Spinner
+        android:id="@+id/from"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="From"
+        android:textColorHint="#05ab9a" />
 
-</RelativeLayout>
+    <Spinner
+        android:id="@+id/to"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="To"
+        android:textColorHint="#05ab9a" />
+
+    <LinearLayout
+        android:id="@+id/empty"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="350dp"
+        android:layout_height="350dp">
+    </LinearLayout>
+
+</LinearLayout>

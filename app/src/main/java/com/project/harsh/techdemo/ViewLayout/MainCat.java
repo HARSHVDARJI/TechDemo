@@ -1,4 +1,4 @@
-package com.project.harsh.techdemo;
+package com.project.harsh.techdemo.ViewLayout;
 
 /**
  * Created by harsh on 28/2/17.
@@ -6,6 +6,12 @@ package com.project.harsh.techdemo;
 public class MainCat {
     int img;
     String title;
+
+    public MainCat(int img, String title) {
+        this.img = img;
+        this.title = title;
+    }
+
 
     public int getImg() {
         return img;

@@ -1,13 +1,14 @@
-package com.project.harsh.techdemo;
+package com.project.harsh.techdemo.ViewLayout;
 
 import android.content.Context;
-import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import com.project.harsh.techdemo.R;
 
 import java.util.ArrayList;
 
@@ -22,7 +23,7 @@ public class CustomGridAdapter extends BaseAdapter{
     public CustomGridAdapter(Context context, ArrayList<MainCat> maincategory) {
         this.context = context;
         this.maincategory = maincategory;
-    }
+    };
     @Override
     public int getCount() {
         return maincategory.size();
@@ -57,13 +58,25 @@ public class CustomGridAdapter extends BaseAdapter{
         }
             holder.image.setImageResource(maincategory.get(position).getImg());
             holder.name.setText(maincategory.get(position).getTitle());
-        convertView.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent gridintent = new Intent(context,DayTwo.class);
-                gridintent.putExtra("listevent",maincategory.get(position).getTitle());
-            }
-        });
+//        convertView.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                if (position == 1){
+//                    Intent gridintent = new Intent(context,ListActivity.class);
+//                    gridintent.putExtra("listevent1",maincategory.get(position).getImg());
+//                    context.startActivity(gridintent);
+//                }
+//                if (position == 2){
+////                Activity activitycontext =(Activity)context;
+////                Intent gridintent = new Intent(context,ListActivity.class);
+//                Intent gridintent1 = new Intent(context,Help.class);
+////                gridintent.putExtra("listevent1",maincategory.get(position).getImg());
+//                gridintent1.putExtra("listevent2",maincategory.get(position).getTitle());
+////                context.startActivity(gridintent);
+//                context.startActivity(gridintent1);
+//                }
+//           }
+//        });
             return convertView;
     }
 }

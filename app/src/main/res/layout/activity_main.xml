@@ -1,35 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/background" >
+    android:background="@color/backcolor"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:gravity="center"
+    android:weightSum="3">
 
     <Button
-        android:id="@+id/help"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="HELP"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="77dp" />
-
-    <Button
-        android:id="@+id/btn2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="DAY 2"
-        android:layout_centerVertical="true"
-        android:layout_alignLeft="@+id/help"
-        android:layout_alignStart="@+id/help" />
-
-    <Button
+        android:background="@drawable/grid_item_corner"
         android:id="@+id/btn1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="180dp"
+        android:layout_height="160dp"
         android:text="DAY 1"
-        android:layout_alignParentTop="true"
-        android:layout_alignLeft="@+id/btn2"
-        android:layout_alignStart="@+id/btn2"
-        android:layout_marginTop="77dp" />
+        android:textStyle="bold"
+        android:textColor="@color/fontcolor"
+        android:layout_marginBottom="77dp"
+        android:layout_weight="1"/>
 
-</RelativeLayout>
+    <Button
+        android:background="@drawable/grid_item_corner"
+        android:id="@+id/btn2"
+        android:textStyle="bold"
+        android:text="DAY 2"
+        android:textColor="@color/fontcolor"
+        android:layout_width="180dp"
+        android:layout_height="160dp"
+        android:layout_weight="1"/>
+
+    <Button
+        android:background="@drawable/grid_item_corner"
+        android:id="@+id/help"
+        android:layout_width="180dp"
+        android:layout_height="160dp"
+        android:text="HELP"
+        android:textStyle="bold"
+        android:textColor="@color/fontcolor"
+        android:layout_marginTop="77dp"
+        android:layout_weight="1"/>
+
+</LinearLayout>
