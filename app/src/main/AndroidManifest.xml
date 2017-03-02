@@ -25,6 +25,8 @@
         <activity android:name=".HelpLayout.Help" > </activity>
         <activity android:name=".ViewLayout.FinalActivity">
         </activity>
+        <activity android:name=".About"
+            android:label="@string/about"> </activity>
     </application>
 
 </manifest>

@@ -19,6 +19,7 @@ public class MainActivity extends AppCompatActivity {
         Button day1 = (Button)findViewById(R.id.btn1);
         Button day2 = (Button)findViewById(R.id.btn2);
         Button help = (Button)findViewById(R.id.help);
+        Button about = (Button)findViewById(R.id.about);
 
         day1.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -44,6 +45,15 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent i = new Intent(MainActivity.this, Help.class);
+                i.putExtra("position",2);
+                startActivity(i);
+
+            }
+        });
+        about.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(MainActivity.this, About.class);
                 i.putExtra("position",2);
                 startActivity(i);
 
