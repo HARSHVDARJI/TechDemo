@@ -5,8 +5,8 @@
     <color name="colorAccent">#FF4081</color>
 
 
-    <color name="color_Primary">#616161</color>
-    <color name="color_PrimaryDark">#424242</color>
+    <color name="color_Primary">#ff6e40</color>
+    <color name="color_PrimaryDark">#e64a19</color>
     <color name="rad">#d32f2f</color>
     <color name="backcolor">#F2F2F2</color>
     <color name="deeorange">#ff5722</color>

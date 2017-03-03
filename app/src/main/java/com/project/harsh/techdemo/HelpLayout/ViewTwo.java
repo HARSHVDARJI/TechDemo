@@ -62,21 +62,12 @@ public class ViewTwo extends View {Paint paint;
         bm_offsetY = bm.getHeight()/2;
 
         animPath = new Path();
-        animPath.moveTo(250, 500);
-        animPath.lineTo(250, 450);
-        animPath.lineTo(300, 400);
-        animPath.lineTo(300, 300);
-        animPath.lineTo(450, 300);
-        animPath.lineTo(450, 900);
-//        animPath.lineTo(250, 900);
-//        animPath.close();
+        animPath.moveTo(250, 900);
+        animPath.lineTo(250, 600);
 
         pathMeasure = new PathMeasure(animPath, false);
         pathLength = pathMeasure.getLength();
 
-
-
-        Toast.makeText(getContext(), "pathLength: " + pathLength, Toast.LENGTH_LONG).show();
 
         step = 1;
         distance = 0;

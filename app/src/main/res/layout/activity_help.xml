@@ -29,12 +29,4 @@ To   **Where You Want To Go**"
         android:hint="To"
         android:textColorHint="#05ab9a" />
 
-    <LinearLayout
-        android:id="@+id/empty"
-        android:gravity="center"
-        android:orientation="vertical"
-        android:layout_width="350dp"
-        android:layout_height="350dp">
-    </LinearLayout>
-
 </LinearLayout>

@@ -9,6 +9,7 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
 
+import com.project.harsh.techdemo.DjClass;
 import com.project.harsh.techdemo.R;
 
 import java.util.ArrayList;
@@ -115,9 +116,13 @@ public class ListActivity extends AppCompatActivity {
                     subeve = subev2;
                     listPosition = 2;
                     break;
-//                case 3:
-//                    subeve = subev4;
-//                    break;
+                case 3:
+                    Intent i = new Intent(ListActivity.this, DjClass.class);
+                    startActivity(i);
+                    if (position == 3)
+                        onBackPressed();
+                    return ;
+//                 break;
             }
         } else if (position != -1 && gridPosition == 1)
 //        position = getIntent().getIntExtra("day2", -1);

@@ -22,7 +22,7 @@ public class Data extends Fragment {
     Spinner materialBetterSpinner1 ;
     Spinner materialBetterSpinner2;
 
-    String[] SPINNER_DATA = {"-SELECT DEPARTMENT-","EC DEPARTMENT","CSE DEPARTMENT","ELECRTICAL DEPARTMENT",
+    String[] SPINNER_DATA = {"-SELECT FROM-","EC DEPARTMENT","CSE DEPARTMENT","ELECRTICAL DEPARTMENT",
             "CIVIL DEPARTMENT","MECHANICAL DEPARTMENT"};
 
     int item1;
@@ -63,18 +63,64 @@ public class Data extends Fragment {
         materialBetterSpinner2.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
-//                item1 = String.valueOf(parent.getItemAtPosition(position));
+
                 item2 = position;
-                if(position >= 1 && item1 ==2 && item2 == 4) {
-//                    TextView tv = (TextView)getActivity().findViewById(R.id.finaltxt);
-//                    tv.setText("from " + item1 + "to " + item2);
+                if(position >= 1 && item1 ==1 && item2 == 2) {
                     LocationAnimation location = new LocationAnimation();
                     FragmentManager fm = getFragmentManager();
                     FragmentTransaction ft = fm.beginTransaction();
-                            ft.replace(R.id.empty,location)
+                            ft.replace(R.id.help_layout,location)
                             .commit();
                 }
-
+                if(position >= 1 && item1 ==1 && item2 == 3) {
+                    OnetoThree onetoThree = new OnetoThree();
+                    FragmentManager fm = getFragmentManager();
+                    FragmentTransaction ft = fm.beginTransaction();
+                    ft.replace(R.id.help_layout,onetoThree)
+                            .commit();
+                }
+                if(position >= 1 && item1 ==1 && item2 == 4) {
+                    EcCivil ecCivil = new EcCivil();
+                    FragmentManager fm = getFragmentManager();
+                    FragmentTransaction ft = fm.beginTransaction();
+                    ft.replace(R.id.help_layout,ecCivil)
+                            .commit();
+                }
+                if(position >= 1 && item1 ==1 && item2 == 5) {
+                    EcMech ecMech = new EcMech();
+                    FragmentManager fm = getFragmentManager();
+                    FragmentTransaction ft = fm.beginTransaction();
+                    ft.replace(R.id.help_layout,ecMech)
+                            .commit();
+                }
+                if(position >= 1 && item1 ==2 && item2 == 1) {
+                    ComEc comEc = new ComEc();
+                    FragmentManager fm = getFragmentManager();
+                    FragmentTransaction ft = fm.beginTransaction();
+                    ft.replace(R.id.help_layout,comEc)
+                            .commit();
+                }
+                if(position >= 1 && item1 ==2 && item2 == 3) {
+                    ComEle comEle = new ComEle();
+                    FragmentManager fm = getFragmentManager();
+                    FragmentTransaction ft = fm.beginTransaction();
+                    ft.replace(R.id.help_layout,comEle)
+                            .commit();
+                }
+                if(position >= 1 && item1 ==2 && item2 == 4) {
+                    ComCivil comCivil = new ComCivil();
+                    FragmentManager fm = getFragmentManager();
+                    FragmentTransaction ft = fm.beginTransaction();
+                    ft.replace(R.id.help_layout,comCivil)
+                            .commit();
+                }
+                if(position >= 1 && item1 ==2 && item2 == 5) {
+                    ComMech comMech = new ComMech();
+                    FragmentManager fm = getFragmentManager();
+                    FragmentTransaction ft = fm.beginTransaction();
+                    ft.replace(R.id.help_layout,comMech)
+                            .commit();
+                }
             }
 
             @Override

@@ -9,24 +9,24 @@
         android:largeHeap="true"
         android:supportsRtl="true"
         android:theme="@style/TechnoSonic">
-        <activity android:name=".MainActivity">
-
-        </activity>
-        <activity android:name=".SpleshScreen"
+        <activity android:name=".MainActivity"></activity>
+        <activity
+            android:name=".SpleshScreen"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar">
-        <intent-filter>
-            <action android:name="android.intent.action.MAIN" />
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
-            <category android:name="android.intent.category.LAUNCHER" />
-        </intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
-        <activity android:name=".ViewLayout.GridActivity" > </activity>
-        <activity android:name=".ViewLayout.ListActivity" > </activity>
-        <activity android:name=".HelpLayout.Help" > </activity>
-        <activity android:name=".ViewLayout.FinalActivity">
-        </activity>
-        <activity android:name=".About"
-            android:label="@string/about"> </activity>
+        <activity android:name=".ViewLayout.GridActivity"></activity>
+        <activity android:name=".ViewLayout.ListActivity"></activity>
+        <activity android:name=".HelpLayout.Help"></activity>
+        <activity android:name=".ViewLayout.FinalActivity"></activity>
+        <activity
+            android:name=".About"
+            android:label="@string/about"></activity>
+        <activity android:name=".DjClass"></activity>
     </application>
 
 </manifest>

@@ -1,6 +1,17 @@
 <resources>
     <string name="app_name">Technosonic2k17</string>
-    <string name="about">About Me</string>
+    <string name="about">About Developers</string>
+
+    <string name="myid">Developer</string>
+    <string name="myname">Harsh Darji(#HD)</string>
+    <string name="mymail">harshdarji1995@gmail.com</string>
+    <string name="my">                                       </string>
+
+    <string name="dhumaid">Guided By</string>
+    <string name="dhumaname">Dhrumil Shah</string>
+    <string name="dhumadv1">Lead Android Developer at Bugle Technologies Pvt. Ltd\n
+    Co-organizer at \nGoogle Developers Group Ahmedabad</string>
+    <string name="dhumadv2">Co-organizer at \nGoogle Developers Group Ahmedabad</string>
 
     <string name="trtime">Time : 10:30AM</string>
     <string name="trtitle">TRUSS BRIDGE MODELLING</string>
@@ -70,15 +81,324 @@ penalty/ disqualification.*
 • Bridge models with piers will be disqualified.
 • If coating of paint, adhesive, polish, or any other material is
 applied to any exposed surface of the bridge model, the model
-will be disqualified.</string>
-    <string name="tv10">**Penalties will be declared at the time of competition. Penalties will be
+will be disqualified.\n**Penalties will be declared at the time of competition. Penalties will be
 decided by the judges.</string>
     <string name="tv11">Winning Price:</string>
-    <string name="tv12">1st 1500/-
-2nd 1000/-</string>
+    <string name="tv12">1st 1500/-\n2nd 1000/-</string>
     <string name="tv13">Student Coordinator:</string>
-    <string name="tv14">Suketu Patel
-(7046408353)</string>
+    <string name="tv14">Suketu Patel\n(7046408353)</string>
+
+    <string name="pptime">Time : 10:30</string>
+    <string name="pptitile">BANNER/MODEL PRESENTATION</string>
+    <string name="pptv1">Details:</string>
+    <string name="pptv2">Getting your ideas on paper is the first step towards making it possible
+        and whats better than a confirm chance to get the same printed in a book with an
+        ISBN. It’s often better to grab the opportunity while available than regretting in future.
+        Making a poster is mandatory for this competition and model is optional. Models should be
+        accompanied with the posters.</string>
+    <string name="pptv3">Banner Presentation Guidelines</string>
+    <string name="pptv4">Making and printing of the banner should be strictly done by abiding
+        the following guideline\n
+    1.
+Banner size should be 3ft by
+4ft
+2.
+It should be in portrait orientation as shown in figure
+3.
+Banner should contain introduction
+(history of the subject)
+4.
+It should contain brief description
+5.
+It should contain merits of the project
+6.
+It should contain the references from where you have taken the idea
+on internet.</string>
+    <string name="pptv5">Winning Price:</string>
+    <string name="pptv6">SURPRISE</string>
+    <string name="pptv7">Coordinator</string>
+    <string name="pptv8">Hardik Kathayat\n(8460495526)\nAshwin Sivadas\n(9712726649)</string>
+
+
+    <string name="trtitile">Techranga</string>
+    <string name="trtime1">Time : 10:30</string>
+    <string name="trtv1">Description:</string>
+    <string name="trtv2">Techranga is not just simple rangoli competition. We have added no of
+obstacles and event competition themes are also innovative each
+rangoli will be on different idea so that each and every rangoli will
+present a new message for science, new development, new innovation
+and future scopes of engineering and our world.</string>
+    <string name="trtv3">Rules:</string>
+    <string name="trtv4">• Each team must only comprise of three students \n
+        • Time period is 1 hour 30 mins.\n
+• All other material should be arranged by the participants except colors\n
+• Winners shall be awarded at the valedictory.\n</string>
+    <string name="trtv5">Coordinator:</string>
+    <string name="trtv6">Ravalyogi Vidhya\n(9428612712)</string>
+
+    <string name="aristime">Time : 10:30</string>
+    <string name="aristitle">ARISTO 6 AXIS ROBOT</string>
+
+    <string name="simtitle">SIEMENS SIMOCODE</string>
+
+    <string name="trwinpr">Winning Price:</string>
+    <string name="treinpr1">1st-500/-\n2nd-300/-</string>
+
+    <string name="plantitle">PLAN O MANIA</string>
+    <string name="plantime">Time : 10:30</string>
+    <string name="plan1">Details</string>
+    <string name="plan2">In this event, plan statement will be given on the spot and participants
+        have to draw plan according to it. Knowledge of standards for various plans will be helpful
+        in this event.</string>
+    <string name="plan3">Rules:</string>
+    <string name="plan4">⇒ You can register with your team or individually.
+⇒ Maximum 2 member in team
+⇒ Plan statements will be given there.
+⇒ Decision of the jury will be final.</string>
+    <string name="plan5">Judging criteria :</string>
+    <string name="plan6">⇒Arrangement of various components of plan.
+⇒Standardization and effectiveness of plan.</string>
+    <string name="plan7">Winning Price:</string>
+    <string name="plan8">1st 1500/-\n2nd 1000/-</string>
+    <string name="plan9">Student Coordinator:</string>
+    <string name="plan10">Anshu Patel\n(9879174535)</string>
+
+    <string name="codetitle">CODEPEDIA</string>
+    <string name="codetime">Time : 12:00</string>
+    <string name="code1">Details:</string>
+    <string name="code2">A programmer is judged on his ability speed and performance under pressure
+        and intense situations. He should be accurate and perfect in his coding abilities. All
+        these skills will be tested in Codepedia.</string>
+    <string name="code3">Level:</string>
+    <string name="code4">1st: Blind Code
+2nd: Code Hunt
+3rd: Code Race</string>
+    <string name="code5">Rules :</string>
+    <string name="code6">⇒ The tools permitted will be “TURBO C”.
+⇒ No external drives are allowed.
+⇒ In case of any kind of cheating candidate will be lead to disqualification.
+⇒ Decision of judges will be final.
+⇒ Incase of conflict between students the coordinators decision will be final</string>
+    <string name="code7">Winning Price:</string>
+    <string name="code8">1st 1000/-\n2nd 500/-</string>
+    <string name="code9">Student Coordinator:</string>
+    <string name="code10">Yash Agrawal\n(9624078174)</string>
+
+
+    <string name="stitle">COUNTER STRIKE</string>
+    <string name="stime">Time : 11.30</string>
+    <string name="stv1">Details:</string>
+    <string name="stv2">All work and no play makes not only jack but even an engineer to be dull and
+        inactive resource hence gaming skills are also equally important for technical students
+        which keeps their mind active and alert all the time.</string>
+    <string name="stv3">Rules:</string>
+    <string name="stv4">⇒ The team should be of 5 members and no changes of players in the team is allowed after they have played their first round.
+⇒ No external drives are allowed.
+⇒ Decision of judges will be final.
+    • Players must be presented in the tournament area with the whole
+team at the notifications schedule. Players are advised to be
+present a few minutes before the schedule to avoid any
+predictable delay. If the team is not present at the notification
+schedule they shall be disqualified.
+• Teams will be given 2 minutes configure their setting and after
+that use of console or change in setting will be strictly
+prohibited.
+• No external drives/devices are allowed.
+• If the match is involuntary interrupted (Player crash, server
+crash, etc..)
+ If are of the player is disconnect or crashed, he must come
+back in to the game as soon as possible and round will be
+paused.
+ If the server crashes before 3 rounds, the whole game
+shall restart from the beginning else the score will be
+recorded and the in the new game start money will be set
+to 5000$.
+ Compensation will not be given in the money earned in
+the game and lost due to interruption of the match.
+• The team should be of 5 members and no changes of players in
+the team is allowed after they have played their first round.
+• Decision of judges will be final.</string>
+    <string name="stv5">Winning Price:</string>
+    <string name="stv6">1st 1500/-\n2nd 500/-</string>
+    <string name="stv7">Student Coordinator:</string>
+    <string name="stv9">Yash Agrawal\n(9624078174)</string>
+
+
+    <string name="ghtitle">GOOGLE HUNT</string>
+    <string name="ghtime">Time : 10:30</string>
+    <string name="gh1">Details:</string>
+    <string name="gh2">The best ideas come from the best way of searching it and engineers generate
+        the unique ideas due to their ability to search and find whatever they seek however
+        difficult it may be. Can you find what is assigned to you within minutes then this is
+        your arena.
+</string>
+    <string name="gh3">Rules :</string>
+    <string name="gh4">⇒ In this event, you will explore cyber world with GOOGLE.
+⇒ No external drives are allowed.
+⇒ The Google Hunt consists of clues.
+⇒ In each level organizer gives the clues (audio, video, images and information) .
+        The contestants have to find that clues on Google in certain time limit.</string>
+    <string name="gh5">Winning Price:</string>
+    <string name="gh6">1st 500/-\n2nd 300/-</string>
+    <string name="gh7">Student Coordinator:</string>
+    <string name="gh8">SIDHADHAPARA BHAKTI\n(8980539906)</string>
+
+
+    <string name="prtitle">PICTURE PERCEPTION</string>
+    <string name="prtime">Time : 11:30</string>
+    <string name="pr1">Details:</string>
+    <string name="pr2">This event will test the intelligence rating of the participants. What you
+        see is not actually what you perceive and it’s not necessary that everyone thinks the same
+        hence its important to know the various angles of the same thing which you see.
+</string>
+    <string name="pr3">Rule :</string>
+    <string name="pr4">ROUND 1
+⇒In this round a video clip will be shown to the participants foe 30 seconds. After that
+        few questions will be asked to them related to the video clip shown to them. Top 5
+        participants will be promoted to the next round.
+ROUND 2
+⇒In this round a image will be shown to the final 5 participants for 1 minute, after that
+        they will have to write a story on the basis of the image shown to them. Thus at last
+        one winner and one runner up will be declared.</string>
+    <string name="pr5">Winning Price:</string>
+    <string name="pr6">1st 700/-\n2nd 500/-</string>
+    <string name="pr7">Student Coordinator:</string>
+    <string name="pr8">PRIYANSHI SINGH\n(7043867185)</string>
+
+    <string name="pjtitle">PROJECTTRONIX</string>
+    <string name="pjtime">Time : 1:00</string>
+    <string name="pj1">Student Coordinator:</string>
+    <string name="pj2">How good are you at finding faults and circuit building? How fast can you
+        assemble a circuit with given limited basic components? Participate and
+        evaluate yourselves.</string>
+    <string name="pj3">Level 1 : PAPER SKILL</string>
+    <string name="pj4">⇒Here, the organizer gives the different names of circuit to the different
+        groups and they have to draw that circuit on a paper with output. The one who qualifies
+        this level will be promoted to next level.</string>
+    <string name="pj5">Level 2 : TROUBLESHOOTING</string>
+    <string name="pj6">⇒ An incorrect circuit will be given to the participants where they have to
+        solve it, find it and find the missing components.</string>
+    <string name="pj7">Level 3 : IMPLEMENTATION</string>
+    <string name="pj8">⇒ The participants which are qualified in above two levels must have
+        implementation skills. The circuit will be given to them which they have to assembled on
+        the breadboard.</string>
+    <string name="pj9">Winning Price:</string>
+    <string name="pj10">1st-Trophy\n2nd-Trophy</string>
+    <string name="pj11">Student Coordinator:</string>
+    <string name="pj12">JYOTI JEPH\n(9714364049)</string>
+
+    <string name="eti">ELECTROHUNT</string>
+    <string name="etime">Time : 1:00</string>
+    <string name="e1">Details:</string>
+    <string name="e2">"ELECTRO-HUNT” is based on the knowledge and skills about the electrical
+        components. It includes depth of knowledge about subject, component recognition skills,
+        circuit implementation to judge the potential of the upcoming engineers of
+        future India’s.</string>
+    <string name="e3">Rules:</string>
+    <string name="e4">⇒ Only team entries are eligible.
+⇒ A team shall consist of two persons(ONLY 2 MEMBERS)
+⇒ The decision of the quiz-master will be final and will not be subjected to any change.
+⇒ The participants shall not be allowed to use mobile or other electronic instruments.
+⇒ Audience shall not give any hints or clues to the competitors.
+⇒ Replacement of any participant of a team is not allowed after registration.</string>
+    <string name="e5">Winning Price:</string>
+    <string name="e6">1st-1000/-\n2nd-600/-</string>
+    <string name="e7">Student Coordinator:</string>
+    <string name="e8">Dip Panchal (9998892462)</string>
+
+    <string name="mti">MOCK INTERVIEW</string>
+    <string name="mtime">Time : 12:00</string>
+    <string name="m1">Details:</string>
+    <string name="m2">Interviews prove to be a major barrier in the successful professional life of
+        technical students like engineers, etc because many a time knowledge hidden within is not
+        able to shine up in front due to simple issues like fear of failure and language problem
+        hence it is important for students to face the real life situations to analyze themselves
+        and do proper progress in the required field</string>
+    <string name="m3">Rules:</string>
+    <string name="m4">⇒ Participant should be in professional attires.
+⇒ Participant has to bring their college ID along with them.
+⇒ There is no need of any other certificates or documents.
+⇒ Participant shall not be allowed to use mobile or other electronic instruments
+⇒ Any kind of misbehavior won’t be tolerated.
+⇒ Audience shall not give any hints or clues to the competitors
+⇒ Replacement of any participant of a team is not allowed after registration.</string>
+    <string name="m5">Winning Price:</string>
+    <string name="m6">1st-Trophy</string>
+    <string name="m7">Student Coordinator:</string>
+    <string name="m8">Saral Mevada (7874995447)</string>
+
+
+    <string name="qtitle">SPARK QUIZ</string>
+    <string name="qtime">Time : 11:00</string>
+    <string name="q1">Details:</string>
+    <string name="q2">Only the best can answer the toughest of the questions. Here is your chance
+        to prove that you are the best at what you do and what you have learnt. Quiz is the best
+        way to improve and add to the already powerful theories we have.</string>
+    <string name="q3">Rules:</string>
+    <string name="q4">⇒ Only team entries are eligible.
+⇒ A team shall consist of max two persons.
+⇒ The decision of the quiz-master will be final and will not be subjected to any change.
+⇒ The participants shall not be allowed to use mobile or other electronic instruments.
+⇒ Audience shall not give any hints or clues to the competitors.
+⇒ Replacement of any participant of a team is not allowed after registration.
+⇒ All the Questions will be related to Electrical Engineering.</string>
+    <string name="q5">Winning Price:</string>
+    <string name="q6">1st-Trophy</string>
+    <string name="q7">Student Coordinator:</string>
+    <string name="q8">Rinkal Chaudhary\n(8758968819)</string>
+
+    <string name="phototitile">PHOTOGRAPHY</string>
+    <string name="phototime">Time : 10:30</string>
+    <string name="photo1">Rules:</string>
+    <string name="photo2">⇒ It is an individual Event.
+⇒ Each participant will pick randomly 5 chits placed in the bowl in front.
+⇒ Themes will be written on them like nature, beauty, etc.
+⇒ Participants have to get us the photo based in those themes.
+⇒ Photos will be judged on the basis of creativity and innovation.
+⇒ Photos will not be judged on the basis of clarity.
+⇒ But at least 5 megapixel cameras should be used to click photos.
+⇒ Photos should be genuine and should not be copied.
+⇒ Photo should be natural not edited.
+⇒ Disqualification if photos were found copied or edited</string>
+    <string name="photo3">Winning Price:</string>
+    <string name="photo4">1st-1000/-\n2nd-500/-</string>
+    <string name="photo5">Student Coordinator:</string>
+    <string name="photo6">Suresh Chaudhary\n(8128299559)</string>
+
+    <string name="autitile">AutoCAD</string>
+    <string name="autime">Time : 10:30</string>
+
+
+    <string name="rdtitile">ROBO DANGAL</string>
+    <string name="rdtime">Time : 10:30</string>
+    <string name="rd1">Details:</string>
+    <string name="rd2">From all corners they come through flame and fear, ping, cutting,
+        hurling maces-the messiahs of destruction, all fighting for the crown. of the robo war
+        winner The carnage will be veiled, the damage catastrophic. let the wars begin.</string>
+    <string name="rd3">More Details:</string>
+    <string name="rd4">⇒ Minimum 2 and Maximum 5 Member\n
+    **For More Details Visit Our Site : http://technosonic2k17.com</string>
+    <string name="rd5">Winning Price:</string>
+    <string name="rd6">1st-2500/-\n2nd-1500/-</string>
+    <string name="rd7">Student Coordinator:</string>
+    <string name="rd8">AADARSH R DESAI\n(9898357709)</string>
+
+    <string name="rrtitile">ROBO RACE</string>
+    <string name="rrtime">ROBO RACE</string>
+    <string name="rr1">Details:</string>
+    <string name="rr2">“More speed, more power with minimum time” Design a manually controlled
+        ROBOT that has capacity to cover maximum distance in shortest possible time,
+        challenging the hurdles and be one of the best opponents. Think your robot can overcome
+        any obstacle-big or small in the least of time. If so get it on the track and let the game
+        begin. And bear in mind that maximizing RPM does not make you winner but winners are those
+        who have good presence of mind, sharpness and practice.</string>
+    <string name="rr3">More Details:</string>
+    <string name="rr4">⇒ Minimum 2 and Maximum 4 Member\n
+    **For More Details Visit Our Site : http://technosonic2k17.com</string>
+    <string name="rr5">Winning Price:</string>
+    <string name="rr6">1st-1500/-\n2nd-1000/-</string>
+    <string name="rr7">Student Coordinator:</string>
+    <string name="rr8">MAYANK K PATEL\n(9726242932)</string>
 
 
 </resources>

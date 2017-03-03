@@ -20,13 +20,13 @@ public class About extends AppCompatActivity {
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setDisplayShowCustomEnabled(true);
 
-        ImageView im = (ImageView)findViewById(R.id.mypic);
-        TextView tv1 = (TextView)findViewById(R.id.myname);
-        TextView tv2 = (TextView)findViewById(R.id.myemail);
-
-        im.setImageResource(R.drawable.mypic);
-        tv1.setText("Harsh Darji (#HD)");
-        tv2.setText("harshdarji1995@gmail.com");
+//        ImageView im = (ImageView)findViewById(R.id.mypic);
+//        TextView tv1 = (TextView)findViewById(R.id.myname);
+//        TextView tv2 = (TextView)findViewById(R.id.myemail);
+//
+//        im.setImageResource(R.drawable.mypic);
+//        tv1.setText("Harsh Darji (#HD)");
+//        tv2.setText("harshdarji1995@gmail.com");
     }
 
     @Override
