@@ -9,20 +9,18 @@
     android:weightSum="3">
 
     <Button
-        android:background="@drawable/grid_item_corner"
+        android:background="@drawable/day1"
         android:id="@+id/btn1"
         android:layout_width="180dp"
         android:layout_height="160dp"
-        android:text="DAY 1"
         android:textStyle="bold"
         android:textColor="@color/fontcolor"
         android:layout_weight="1"/>
 
     <Button
-        android:background="@drawable/grid_item_corner"
+        android:background="@drawable/day2"
         android:id="@+id/btn2"
         android:textStyle="bold"
-        android:text="DAY 2"
         android:textColor="@color/fontcolor"
         android:layout_width="180dp"
         android:layout_height="160dp"
@@ -32,22 +30,23 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal">
         <Button
-            android:background="@drawable/grid_item_corner"
+            android:background="@drawable/logo"
             android:id="@+id/help"
-            android:layout_width="160dp"
+            android:layout_marginRight="30dp"
+            android:layout_width="wrap_content"
             android:layout_height="140dp"
-            android:text="HELP"
+            android:text="Mr. Majnu"
             android:textStyle="bold"
-            android:textColor="@color/fontcolor"
+            android:textColor="@color/rad"
             android:layout_weight="1"/>
         <Button
             android:background="@drawable/grid_item_corner"
             android:id="@+id/about"
-            android:layout_width="160dp"
-            android:layout_height="140dp"
-            android:text="About"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="About\nDevelopers"
             android:textStyle="bold"
-            android:textColor="@color/fontcolor"
+            android:textColor="@color/backcolor"
             android:layout_weight="1"/>
 
     </LinearLayout>

@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">Technosonic2k17</string>
     <string name="about">About Developers</string>
+    <string name="help">Help</string>
 
     <string name="myid">Developer</string>
     <string name="myname">Harsh Darji(#HD)</string>

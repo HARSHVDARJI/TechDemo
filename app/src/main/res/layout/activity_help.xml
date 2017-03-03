@@ -7,7 +7,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
     <TextView
-        android:text="Mr. Guide Here to Help You,  Please Choose
+        android:text="Mr. Majnu Here to Help You,  Please Choose
 From **Current Location**
 To   **Where You Want To Go**"
         android:textColor="@color/deeorange"

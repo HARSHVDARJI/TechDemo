@@ -21,12 +21,14 @@
         </activity>
         <activity android:name=".ViewLayout.GridActivity"></activity>
         <activity android:name=".ViewLayout.ListActivity"></activity>
-        <activity android:name=".HelpLayout.Help"></activity>
+        <activity android:name=".HelpLayout.Help"
+            android:label="@string/help"></activity>
         <activity android:name=".ViewLayout.FinalActivity"></activity>
         <activity
             android:name=".About"
             android:label="@string/about"></activity>
-        <activity android:name=".DjClass"></activity>
+        <activity android:name=".DjClass"
+            android:label="About DJ"></activity>
     </application>
 
 </manifest>
