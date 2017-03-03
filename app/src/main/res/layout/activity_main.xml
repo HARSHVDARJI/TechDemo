@@ -33,10 +33,11 @@
             android:background="@drawable/logo"
             android:id="@+id/help"
             android:layout_marginRight="30dp"
-            android:layout_width="wrap_content"
-            android:layout_height="140dp"
+            android:layout_width="80dp"
+            android:layout_height="120dp"
             android:text="Mr. Majnu"
             android:textStyle="bold"
+            android:gravity="center"
             android:textColor="@color/rad"
             android:layout_weight="1"/>
         <Button
